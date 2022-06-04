@@ -48,6 +48,16 @@
         .column{
             flex-direction: column;
         }
+
+       .central{
+           height: 400px;
+           justify-content: center;
+       }
+
+       .central .item{
+           flex: 0;
+           padding: 20px;
+       }
     </style>
 </head>
 <body>
@@ -121,6 +131,14 @@
         <div class="item">item 1</div>
         <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a quam eu odio cursus faucibus. Cras eget urna suscipit, cursus lorem lobortis</div>
         <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a quam eu odio cursus faucibus. Cras eget urna suscipit, cursus lorem lobortis, varius urna. Donec ullamcorper malesuada hendrerit.</div>
+    </section>
+
+    <p>alinhamento central à tela</p>
+    <section class="container central center">
+        <div class="item">Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+            Nam a quam eu odio cursus faucibus.
+            </div>
     </section>
 </body>
 </html>
